@@ -8,3 +8,9 @@ export interface StorageItem {
   x?: number;
   y?: number;
 }
+export interface StorageCategory {
+  id: string;
+  name: string;
+  color: string;
+  created_at: string; 
+}
